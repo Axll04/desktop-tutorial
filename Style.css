@@ -1,0 +1,50 @@
+
+.Circulo{
+    height: 100px; /*Medida exacta pa q se mantenga el circulo*/
+    width: 100px;
+    border-radius: 100%; /*Se redondea*/
+    background-color: rgb(12, 173, 173);
+    border: 1px solid rgb(0, 0, 0);
+
+    /*Position the Circle*/
+    position: relative; 
+    margin-top: 50px; 
+    margin-left: 700px;
+}
+
+
+.rectangulo{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(117, 143, 0);
+    padding: 12px;
+    border: 1px solid rgb(1, 3, 3); /*Solid es el estilo, indagar eos estilos*/ /*Dashed (I)*/
+
+    /*Pa q se mueva al centro*/
+    position: relative; 
+    margin-top: 100px; 
+    margin-left: 630px;
+}
+
+p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.cuadro{
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+    background-color: rgb(101, 0, 97);
+    border: 1px solid rgb(1, 2, 3);
+
+    position: relative; /*es relativo con el contenedor pare*/ /**/
+    margin-top: 150px; /* I */
+    margin-left: 680px;
+}
+/*color del fondo*/
+
+body {
+    background-color: #0a5588; /* cambia el color que quieras */
+}
